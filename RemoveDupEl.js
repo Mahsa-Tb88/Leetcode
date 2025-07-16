@@ -8,7 +8,7 @@ var removeDuplicates = function (nums) {
       nums[k] = nums[i];
       k++;
     }
-    console.log(nums);
+    
   }
 
   return k;
