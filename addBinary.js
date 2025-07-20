@@ -35,7 +35,6 @@ var addBinary = function (a, b) {
     arr.push((ab % 2n).toString());
     ab = ab / 2n;
   }
-
   return arr.reverse().join("");
 };
 
